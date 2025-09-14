@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Online - China Town</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+      <img src="logo.png" alt="China Town Logo">
+      <a href="index.html">HOME</a>
+      <a href="menu.html">MENU</a>
+      <a href="">BOOK A TABLE</a>
+  </nav>
+
+  <header>
+      <h1>Order Your Favorite Chinese Dishes</h1>
+  </header>
+
+  <main>
+      <section>
+          <form class="order-form">
+              <h2>Fill Your Details</h2>
+
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required>
+
+              <label for="address">Delivery Address:</label>
+              <textarea id="address" name="address" rows="3" required></textarea>
+
+              <h2>Choose Your Items</h2>
+
+        
+              <h3>Starters</h3>
+              <table class="order-table">
+                  <tr>
+                      <td>Spring Rolls</td>
+                      <td>
+                          <select name="spring_rolls_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Chicken Manchow Soup</td>
+                      <td>
+                          <select name="chicken_manchow_soup_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Prawn Crackers</td>
+                      
+                      <td>
+                          <select name="prawn_crackers_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Veg Dumplings</td>
+                      
+                      <td>
+                          <select name="veg_dumplings_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+              </table>
+
+              <h3>Main Course</h3>
+              <table class="order-table">
+                  <tr>
+                      <td>Sweet & Sour Chicken</td>
+                      
+                      <td>
+                          <select name="sweet_sour_chicken_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                   <tr>
+                      <td>Kung Poa Prawns</td>
+                      
+                      <td>
+                          <select name="hakka_noodles_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Schezwan Fried Rice</td>
+                    
+                      <td>
+                          <select name="schezwan_fried_rice_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>    
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Hakka Noodles</td>
+                      
+                      <td>
+                          <select name="hakka_noodles_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                   <tr>
+                      <td>Mapo Tofu</td>
+                      
+                      <td>
+                          <select name="hakka_noodles_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+              </table>
+
+              <h3>Desserts</h3>
+              <table class="order-table">
+                <tr>
+                      <td>Honey Noodles with Ice Cream</td>
+                    
+                      <td>
+                          <select name="egg_tart_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Mango Pudding</td>
+                      
+                      <td>
+                          <select name="mango_pudding_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Egg Tart</td>
+                    
+                      <td>
+                          <select name="egg_tart_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Fried Ice Cream</td>
+                    
+                      <td>
+                          <select name="egg_tart_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+              </table>
+
+              <h3>Drinks</h3>
+              <table class="order-table">
+                  <tr>
+                      <td>Jasmine Tea</td>
+                    
+                      <td>
+                          <select name="jasmine_tea_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Lemon Grass Cooler</td>
+                    
+                      <td>
+                          <select name="jasmine_tea_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Lychee Mojito</td>
+                    
+                      <td>
+                          <select name="jasmine_tea_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>Soft Driks</td>
+                    
+                      <td>
+                          <select name="jasmine_tea_qty">
+                              <option value="0">-- Select --</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                                <option value="3">3</option>
+                          </select>
+                      </td>
+                  </tr>
+              </table>
+
+              <label for="payment">Payment Method:</label>
+              <select id="payment" name="payment" required>
+                  <option value="">-- Select --</option>
+                  <option value="cod">Cash on Delivery</option>
+                  <option value="upi">UPI / Wallet</option>
+                  <option value="card">Credit / Debit Card</option>
+              </select>
+
+              <button type="submit">Place Order</button>
+          </form>
+      </section>
+  </main>
+
+  <footer>
+      <p>&copy; 2025 China Town. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
