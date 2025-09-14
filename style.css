@@ -303,7 +303,6 @@ section img {
     padding: 5px;
 }
 
-/* Button */
 button {
     display: block;
     margin: 20px auto;
@@ -319,7 +318,56 @@ button {
 
 button:hover {
     background-color: #a01919;
+} 
+.reservation-form {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
+
+.reservation-form h2 {
+    text-align: center;
+    color: #b22222;
+    margin-bottom: 20px;
+}
+
+.reservation-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.reservation-form button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 20px;
+    background-color: #b22222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.reservation-form button:hover {
+    background-color: #a01919;
+}
+
 
 @media (max-width: 600px) {
     .order-form {
