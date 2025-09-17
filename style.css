@@ -107,6 +107,12 @@ header button a {
   font-weight: bold;
   
 }
+span {
+  display: inline-flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 
 main {
   padding: 40px 20px;
